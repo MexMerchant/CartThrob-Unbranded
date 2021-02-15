@@ -19,7 +19,6 @@ This CartThrob module provides an easy method to integrate with the payment gate
 
 - The module requires the following prerequisites to be met in order to function correctly:
     - The 'bcmath' php extension module: https://www.php.net/manual/en/book.bc.php
-    - SSL **NB: HTTPS is expected to be in place as the payment gateway will respond over SSL when redirecting the user's browser. Failure to provide an environment where HTTPS traffic is possible, will result in the 3DSv2 payment flow failing***
 
 > Please note that we can only offer support for the Module itself. While every effort has been made to ensure the payment module is complete and bug free, we cannot guarentee normal functionality if unsupported changes are made.
 
@@ -38,6 +37,7 @@ To rebrand this module, complete the following steps:
 3. Replace the `cs-logo.png` file with your own in the following directories:
 	- `httpdocs/system/user/addons/cartthrob/third_party/payment_gateways/`
 	- `httpdocs/system/user/addons/cartthrob/third_party/language/english/`
+4. When downloading as a zip file, you can right-click and rename to remove the `Unbranded` text from the filename.
 
 # Installing and configuring the module
 
