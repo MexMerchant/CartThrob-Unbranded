@@ -32,7 +32,7 @@ To rebrand this module, complete the following steps:
 2. In file `httpdocs/system/user/addons/cartthrob/third_party/language/english/cartthrob_payment_network_hosted_lang.php` change the following:
 	- Line 3: `'payment_network_title' => 'Payment Network (Hosted)',` changing Payment Network to your brand name
 	- Line 4: `'payment_network_description' => '<a href="https://www.example.com"><img src="system/user/addons/cartthrob/third_party/payment_gateways/cs-logo.png" border="0" alt="Payment Network" /></a>` changing the  website url to your brand url and the Payment Network alt text to your brand name
-	- Line 7: `<p><a href="https://mms.cardstream.com/">Login to the Payment Network merchant area</a></p>` changing the url to that of your branded MMS
+	- Line 7: `<p><a href="https://mms.example.com/">Login to the Payment Network merchant area</a></p>` changing the url to that of your branded MMS
 	- Line 8: `<p>Accept credit cards through the Payment Network payment gateway.</p>` changing Payment Network to your brand name
 3. Replace the `cs-logo.png` file with your own in the following directories:
 	- `httpdocs/system/user/addons/cartthrob/third_party/payment_gateways/`
@@ -46,9 +46,9 @@ To rebrand this module, complete the following steps:
 3. Then click "Add-on Manager".
 4. Locate your 'CartThrob Add-on' in the "Thrid Party Add-Ons" section and click manage.
 5. Navigate to and click the "PAYMENTS" tab.
-6. In the "Select a gateway to edit its settings" dropdown choose "Cardstream (Hosted)"
-7. Configure the "Cardstream (Hosted)" payment gateway settings. Once configured, scroll down and locate "Allow Gateway Selection in Checkout Form?". Find "Cardstream (Hosted)" and check it, then click submit. The module has now been added to the checkout page
-8. By default we have set the module to the use the test details. To use your live details simply replace the test details in the text boxes with the ones supplied from your Cardstream live letter.
+6. In the "Select a gateway to edit its settings" dropdown choose "PaymentNetwork (Hosted)"
+7. Configure the "PaymentNetwork (Hosted)" payment gateway settings. Once configured, scroll down and locate "Allow Gateway Selection in Checkout Form?". Find "PaymentNetwork (Hosted)" and check it, then click submit. The module has now been added to the checkout page
+8. By default we have set the module to the use the test details. To use your live details simply replace the test details in the text boxes with the ones supplied from your PaymentNetwork live letter.
 
 License
 ----
