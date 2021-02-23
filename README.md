@@ -27,12 +27,12 @@ This CartThrob module provides an easy method to integrate with the payment gate
 To rebrand this module, complete the following steps:
 
 1. In file `httpdocs/system/user/addons/cartthrob/third_party/payment_gateways/Cartthrob_payment_network.php` change the following:
-	- Line 20: `* @author Payment Network <https://www.example.com>` to your website url
-	- Line 53: `'default' => 'https://gateway.example.com/hosted/'` changing gateway.example.com with your gateway url
+	- Line 20: `* @author Payment Network <https://www.example.com>` to your website URL
+	- Line 53: `'default' => 'https://gateway.example.com/hosted/'` changing gateway.example.com with your gateway URL
 2. In file `httpdocs/system/user/addons/cartthrob/third_party/language/english/cartthrob_payment_network_hosted_lang.php` change the following:
 	- Line 3: `'payment_network_title' => 'Payment Network (Hosted)',` changing Payment Network to your brand name
-	- Line 4: `'payment_network_description' => '<a href="https://www.example.com"><img src="system/user/addons/cartthrob/third_party/payment_gateways/cs-logo.png" border="0" alt="Payment Network" /></a>` changing the  website url to your brand url and the Payment Network alt text to your brand name
-	- Line 7: `<p><a href="https://mms.example.com/">Login to the Payment Network merchant area</a></p>` changing the url to that of your branded MMS
+	- Line 4: `'payment_network_description' => '<a href="https://www.example.com"><img src="system/user/addons/cartthrob/third_party/payment_gateways/cs-logo.png" border="0" alt="Payment Network" /></a>` changing the  website URL to your brand URL and the Payment Network alt text to your brand name
+	- Line 7: `<p><a href="https://mms.example.com/">Login to the Payment Network merchant area</a></p>` changing the URL to that of your branded MMS
 	- Line 8: `<p>Accept credit cards through the Payment Network payment gateway.</p>` changing Payment Network to your brand name
 3. Replace the `cs-logo.png` file with your own in the following directories:
 	- `httpdocs/system/user/addons/cartthrob/third_party/payment_gateways/`
